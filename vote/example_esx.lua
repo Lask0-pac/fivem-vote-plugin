@@ -76,3 +76,10 @@ AddEventHandler('onPlayerVote', function (playername, ip, date)
         end)
     end
 end)
+AddEventHandler('onPlayerVote', function (playername, ip, date)
+    -- Ajouter ici des actions lorsqu'un vote est perçu.
+    -- Par exemple : donner de l'argent In-Game, donner des points, enregistrer en BDD, ...
+    print(playername)
+    print(ip)
+    print(date)
+end)
